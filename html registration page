@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <h2>PERSONAL INFORMATION</h2>
+    <form>
+        <label for="fname">FIRST NAME:</label><br>
+        <input type="text" id="fname" name="fname"></input>
+        <br><br>
+        <label for="lname">LAST NAME:</label><br>
+        <input type="text" id="lname" name="lname"></input>
+        <br><br>
+        <label for="email">E-MAIL ADDRESS:</label><br>
+        <input type="email" id="email" name="email"></input>
+        <br><br>
+        <label for="pass">PASSWORD</label><br>
+        <input type="password" id="pass" name="pass" style="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8, }" title="Must contain atleast one number,one uppercase and lowercase letter and atleast 8 or more characters"></input>
+        <br><br>
+        <label for="cpass">CONFIRM PASSWORD:</label><br>
+        <input type="password" id="cpass" name="cpass"required>
+        <br><br>
+        <label for="dob">DATE OF BIRTH:</label>
+        <input type="date" id="dob">
+        <br><br>
+        <label for="gender">GENDER:</label>
+        <input type="radio" name="gender" value="male">Male</input>
+        <input type="radio" name="gender" value="female">Female
+        <br><br>
+        <label for="county">COUNTRY:</label><br>
+        <input type="text" id="country" name="country"></input>
+        <br><br>
+        <label for="checkbox">I agree the terms and conditions</label>
+        <input type="checkbox" id="policy" name="policy"> 
+        <br><br>
+        <button type="submit" value="submit">SUBMIT</button>
+        <br>
+        <p>Users would fill out this form to register for a website or service.</p>
+    </form>
+</body>
+</html>
